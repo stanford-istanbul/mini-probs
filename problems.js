@@ -71,7 +71,15 @@ function lirasToDollars (liras) {
  * Reverse input
  */
 function reverseInput(input) {
+   return input.reverse(); //lol
+}
 
+/**
+ * random integer -- because javascript's random is not very
+ * easy to use!
+ */
+function randInt(lowerBound, upperBound) {
+   return Math.floor(Math.random()*(upperBound-lowerBound)) + lowerBound;
 }
 
 === Intermediate
