@@ -1,17 +1,17 @@
 /**
  * Press the lightening bolt symbol to launch your program, then open the javascript console
- * To see the result of your code!
+ * To see the result of your code! You can use Ctrl-Shift-j to open the console.
  */
 
 /**
- * Write a function that returns twice the number that is passed in
+ * Write converter that converts liras to dollars,
+ * Where there are two lira to each dollar.
  */
-function double (number) {
-    // Write your code here!!!
+function lirasToDollars (lira) {
+    // Write your code here!
 }
 
-// This will print to the browser's javascript console.
-console.log("Twice 2 is "+double(2));
+console.log("5 lira in us dollars is "+lirasToDollars(5));
 
 /**
  * Write a function that says Merhaba to the name passed in
@@ -55,14 +55,4 @@ function sumMultiplesOf3 (n) {
 
 console.log("The sum of 1 to 6 with only multiple of 3 is "+sumMultiplesOf3(6));
 console.log("The sum of 1 to 12 with only multiple of 3 is "+sumMultiplesOf3(12));
-
-/**
- * Write converter that converts liras to dollars,
- * Where there are two lira to each dollar.
- */
-function lirasToDollars (lira) {
-    // Write your code here!
-}
-
-console.log("5 lira in us dollars is "+lirasToDollars(5));
 
